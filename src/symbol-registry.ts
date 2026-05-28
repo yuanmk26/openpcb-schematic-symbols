@@ -13,7 +13,7 @@ const SYMBOL_SPEC_REGISTRY: Record<string, SymbolSpec> = {
     pins: [
       {
         name: "1",
-        number: 1,
+        number: "1",
         side: "left",
         offset: { x: -12, y: 0 },
         direction: "passive",
@@ -21,7 +21,7 @@ const SYMBOL_SPEC_REGISTRY: Record<string, SymbolSpec> = {
       },
       {
         name: "2",
-        number: 2,
+        number: "2",
         side: "right",
         offset: { x: 12, y: 0 },
         direction: "passive",
@@ -61,7 +61,7 @@ const SYMBOL_SPEC_REGISTRY: Record<string, SymbolSpec> = {
     pins: [
       {
         name: "1",
-        number: 1,
+        number: "1",
         side: "left",
         offset: { x: -12, y: 0 },
         direction: "passive",
@@ -69,7 +69,7 @@ const SYMBOL_SPEC_REGISTRY: Record<string, SymbolSpec> = {
       },
       {
         name: "2",
-        number: 2,
+        number: "2",
         side: "right",
         offset: { x: 12, y: 0 },
         direction: "passive",
@@ -107,10 +107,10 @@ const SYMBOL_SPEC_REGISTRY: Record<string, SymbolSpec> = {
       shape: "rect",
     },
     pins: [
-      { name: "1", number: 1, side: "left", offset: { x: -34, y: -24 }, direction: "passive", electricalType: "passive" },
-      { name: "2", number: 2, side: "left", offset: { x: -34, y: -8 }, direction: "passive", electricalType: "passive" },
-      { name: "3", number: 3, side: "left", offset: { x: -34, y: 8 }, direction: "passive", electricalType: "passive" },
-      { name: "4", number: 4, side: "left", offset: { x: -34, y: 24 }, direction: "passive", electricalType: "passive" },
+      { name: "1", number: "1", side: "left", offset: { x: -34, y: -24 }, direction: "passive", electricalType: "passive" },
+      { name: "2", number: "2", side: "left", offset: { x: -34, y: -8 }, direction: "passive", electricalType: "passive" },
+      { name: "3", number: "3", side: "left", offset: { x: -34, y: 8 }, direction: "passive", electricalType: "passive" },
+      { name: "4", number: "4", side: "left", offset: { x: -34, y: 24 }, direction: "passive", electricalType: "passive" },
     ],
     labels: {
       ref: {
